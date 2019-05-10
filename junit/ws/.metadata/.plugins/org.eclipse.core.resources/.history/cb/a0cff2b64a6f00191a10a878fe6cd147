@@ -1,0 +1,11 @@
+package co.curso.junit;
+
+import org.junit.Before;
+
+public class UtilidadesTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+}

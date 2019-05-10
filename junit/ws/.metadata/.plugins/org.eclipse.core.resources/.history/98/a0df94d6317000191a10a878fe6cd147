@@ -1,0 +1,18 @@
+package co.curso.junit.aserciones;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//primitivos
+		int a= 5;
+		int b= 5;
+		System.out.println("privimitivos ->" + (a==b));
+	
+		//objetos
+		Persona personaA= new Persona("Paco", "Perez");
+		Persona personaB= new Persona("Freddy", "Perez");
+	
+	}
+
+}

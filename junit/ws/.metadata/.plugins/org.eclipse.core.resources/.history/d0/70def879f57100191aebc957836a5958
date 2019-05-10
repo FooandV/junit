@@ -1,0 +1,28 @@
+package co.curso.junit.aserciones;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//primitivos
+		int a= 5;
+		int b= 5;
+		System.out.println("privimitivos ->" + (a==b));
+	
+		//objetos
+		Persona personaA= new Persona("Paco", "Perez");//cada objeto ocupa una pocisión distinta en memoria HEAP
+		Persona personaB= new Persona("Paco", "Perez");
+		System.out.println("validacion de Objetos sin sobreescribir metodo equals() ->" + (personaA==personaB));
+		
+		//el metodo equals() realiza comparación de objetos y de identidad
+//		por defecto el metodo equals de la clase Object de la que heredan todos 
+//		los objetos, lo que hace es una comparación de identidad, es decir
+//		validara si los objetos son iguales si son el mismo objeto en memoria.
+		
+		/**hay una manera de que dos objetos con los mismos atributos java interprete que son iguales
+		 * y es sobrescribiendo el metodo equals() del pojo*/
+		System.out.println("Objetos  ->" + (personaA.equals(personaB)));
+	
+	}
+
+}

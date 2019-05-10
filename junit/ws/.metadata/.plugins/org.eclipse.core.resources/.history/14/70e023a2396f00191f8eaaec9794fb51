@@ -1,0 +1,12 @@
+package proyectoMoreUnit;
+
+public class Persona {
+	
+	private String nombre;
+	private String apellido; 
+	
+	public Persona() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

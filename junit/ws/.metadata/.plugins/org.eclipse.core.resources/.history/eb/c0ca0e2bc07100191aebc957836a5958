@@ -1,0 +1,64 @@
+import org.junit.Before;
+import org.junit.Test;
+
+public class MetodosAutomaticosTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testSetUpBeforeClass() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testTearDownAfterClass() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testSetUp() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testTearDown() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testPrimerTest() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testSegundoTest() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+}

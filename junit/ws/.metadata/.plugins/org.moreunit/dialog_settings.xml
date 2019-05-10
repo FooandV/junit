@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="NewTestCaseCreationWizardPage.USE_SETUP" value="true"/>
+	<item key="NewTestCaseCreationWizardPage.USE_TEARDOWN" value="false"/>
+	<item key="NewTestCaseCreationWizardPage.USE_SETUPCLASS" value="false"/>
+	<item key="NewTestCaseCreationWizardPage.USE_TEARDOWNCLASS" value="false"/>
+	<item key="NewTestCaseCreationWizardPage.USE_CONSTRUCTOR" value="false"/>
+	<item key="org.moreunit.wizards.NewTestCaseWizard.packageFragmentRoot.proyectoMoreUnit" value="=proyectoMoreUnit/src\/test\/java"/>
+	<item key="org.moreunit.wizards.NewTestCaseWizard.packageFragmentRoot.primerTest" value="=primerTest/src\/test\/java"/>
+	<item key="org.moreunit.wizards.NewTestCaseWizard.packageFragmentRoot.proyectoAserciones" value="=proyectoAserciones/src\/test\/java"/>
+</section>

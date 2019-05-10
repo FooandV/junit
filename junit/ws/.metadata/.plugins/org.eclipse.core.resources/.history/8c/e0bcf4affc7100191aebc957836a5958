@@ -1,0 +1,34 @@
+package co.curso.junit.aserciones;
+
+import static org.junit.Assert.assertArrayEquals;
+import org.junit.Before;
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class UtilidadesTest {
+	
+	
+	private Utilidades utils;
+	
+	@Before
+	public void setUp() throws Exception {
+		utils = new Utilidades();
+	}
+
+	@Test
+	public void testGetArrayStrings() throws Exception {
+		//given
+		String [] esperado = {"uno","dos","tres"};
+		
+		//when
+		String[] resultado = utils.getArrayStrings("uno","dos","tres");
+
+		//then
+		assertArrayEquals(esperado, resultado);
+		Assert.assertEquals(3, resultado.length);
+		Assert.assertEquals(esperado.length, resultado.length);
+		
+	}
+
+}

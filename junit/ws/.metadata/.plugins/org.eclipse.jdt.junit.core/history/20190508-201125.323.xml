@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UtilidadesPersonasTest" project="proyectoAserciones" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="co.curso.junit.aserciones.UtilidadesPersonasTest" time="0.0">
+    <testcase name="testGetJuan" classname="co.curso.junit.aserciones.UtilidadesPersonasTest" time="0.0"/>
+    <testcase name="testGetCarlos" classname="co.curso.junit.aserciones.UtilidadesPersonasTest" time="0.0"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,30 @@
+package co.curso.junit.aserciones;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class UtilidadesPersonasTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testGetCarlos() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+	@Test
+	public void testGetJuan() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+}

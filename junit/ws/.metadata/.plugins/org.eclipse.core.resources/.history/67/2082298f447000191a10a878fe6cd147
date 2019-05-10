@@ -1,0 +1,31 @@
+package co.curso.junit.aserciones;
+
+
+public class UtilidadesPersonas {
+	
+	private Persona carlos;
+	private Persona juan;
+	
+	public UtilidadesPersonas() {
+
+		carlos= new Persona("Carlos", "Romero");
+		juan= new Persona("juan", "lopez");
+	}
+
+	public Persona getCarlos() {
+		return carlos;
+	}
+
+	public void setCarlos(Persona carlos) {
+		this.carlos = carlos;
+	}
+
+	public Persona getJuan() {
+		return juan;
+	}
+
+	public void setJuan(Persona juan) {
+		this.juan = juan;
+	}
+
+}

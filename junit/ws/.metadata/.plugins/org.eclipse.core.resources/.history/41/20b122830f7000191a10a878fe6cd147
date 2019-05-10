@@ -1,0 +1,22 @@
+import org.junit.Before;
+import org.junit.Test;
+
+public class MetodosManuales {
+
+	@Before
+	public void setUp() {
+		System.out.println("Antes de cada test");
+	}
+	
+	
+	@Test
+	public void primerTest() {
+		System.out.println("Primer test");
+	}
+	
+	@Test
+	public void segundoTest() {
+		System.out.println("Segundo test");
+	}
+	
+}

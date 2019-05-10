@@ -1,0 +1,57 @@
+package calculadora;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+//	@Test //con esto se hace que se marca el metodo como una prueba
+//	public void test() {
+	/*** si se escribe una llamada fail la prueba automaticamente fallará */
+//		fail("Not yet implemented");
+
+	/**
+	 * Si en algun momento se quiere que la prueba falle, ejemplo que se este
+	 * ejecutando un error en el código y se den cuenta que no debería hacer lo
+	 * correcto
+	 */
+//		fail("buuu");
+			//	}
+			//	@Test
+			//	public void testSuma() {
+			//		int resultado = Calculadora.suma(2, 3);
+			//		int esperado = 5; // 2+3=5
+			//		assertEquals(esperado, resultado);
+			//	}
+			//
+			//	@Test
+			//	public void testResta() {
+			//		int resultado = Calculadora.resta(3, 2);
+			//		int esperado = 1;
+			//		assertEquals(esperado, resultado);
+			//	}
+
+/**Anotaciones Before y After*/
+	
+	@Test
+	public void testSum() {
+		
+		Calculadora calc= new Calculadora();
+		int resul= calc.add(3,2);
+		int esper= 5;
+		assertEquals(esper,resul );
+	}
+	//metodo para probar que despues de una suma el valor de ans es el esperado:
+	@Test
+	public void testAnsSum() {
+		Calculadora cal= new Calculadora();
+		cal.add(3,2);
+		int resul= cal.ans();
+		int esper= 5;
+		assertEquals(esper, resul);
+		
+	}
+	
+	
+}

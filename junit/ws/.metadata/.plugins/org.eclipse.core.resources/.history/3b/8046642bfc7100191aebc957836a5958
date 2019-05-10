@@ -1,0 +1,21 @@
+package co.curso.junit.aserciones;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class UtilidadesTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testGetArrayStrings() throws Exception {
+		//given
+
+		//when
+
+		//then
+	}
+
+}

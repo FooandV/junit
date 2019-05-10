@@ -1,0 +1,15 @@
+package calculadora;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test //con esto se hace que se marca el metodo como una prueba
+	public void test() {
+		//si se escribe una llamada fail la prueba automaticamente fallará
+		fail("Not yet implemented");
+	}
+
+}

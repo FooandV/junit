@@ -1,0 +1,26 @@
+package proyectoMoreUnit;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class PersonaTest {
+
+	private Persona persona;
+	
+	@Before
+	public void setUp() throws Exception {
+		
+		persona = new Persona("Freyder", "Otalvaro");
+	}
+
+	@Test
+	public void testGetNombre() throws Exception {
+		//given *aca se encuentran las condiciones previas del test*
+
+		//when *esta es la ejecución del metodo a probar
+		
+		//then *seran todas las condiciones a probar que se cumplen para validar el test
+		Assert.assertTrue(persona.getNombre().equals("Carolina"));}
+
+}

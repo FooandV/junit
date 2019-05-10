@@ -1,0 +1,13 @@
+package co.curso.junit;
+
+public class Utilidades {
+
+	public String concatenar(String uno, String dos) {
+//		return uno.concat(" ").concat(dos);
+		
+		if(uno!=null && dos!=null) {
+			return uno.concat(dos);
+		}
+		return null;
+	}
+}

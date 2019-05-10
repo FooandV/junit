@@ -1,0 +1,16 @@
+package co.curso.junit;
+
+import org.junit.Test;
+
+public class UtilidadesTest {
+	
+	@Test
+	public void testConcatenar() {
+		//instanciar la clase a probar
+		Utilidades utilidades = new Utilidades();
+		//ejecutar el metodo a probar
+		utilidades.concatenar("Violetta", "te amo");
+		
+	}
+	
+}

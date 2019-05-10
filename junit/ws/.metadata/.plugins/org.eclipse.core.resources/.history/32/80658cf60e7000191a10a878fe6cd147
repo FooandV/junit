@@ -1,0 +1,15 @@
+import org.junit.Test;
+
+public class MetodosManuales {
+
+	@Test
+	public void primerTest() {
+		System.out.println("Primer test");
+	}
+	
+	@Test
+	public void segundoTest() {
+		System.out.println("Primer test");
+	}
+	
+}
