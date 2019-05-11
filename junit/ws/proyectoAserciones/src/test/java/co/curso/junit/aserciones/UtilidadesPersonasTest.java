@@ -1,10 +1,14 @@
 package co.curso.junit.aserciones;
 
-import static junit.framework.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import org.junit.Before;
+import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
+@FixMethodOrder(MethodSorters.NAME_ASCENDING) // esta anotacion es para que se ejecuten
+//los test en orden alfabetico ascendente
 public class UtilidadesPersonasTest {
 
 	private UtilidadesPersonas utils;
@@ -45,7 +49,7 @@ public class UtilidadesPersonasTest {
 	public void testPersonasDiferentes() {
 		Persona carlos = utils.getCarlos();
 		Persona juan = utils.getJuan();
-		
+
 		assertNotEquals(juan, carlos);
 	}
 
